@@ -3,130 +3,187 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tucker Trivette — Aerospace Quality Engineering</title>
+<title>Tucker Trivette — Aerospace Engineering</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="topbar-mark">TT—01</div>
+<header class="nav">
+  <a href="#" class="wordmark">Tucker Trivette</a>
   <nav>
-    <a href="#work">WORK</a>
-    <a href="#about">ABOUT</a>
-    <a href="resume.pdf">RESUME</a>
-    <a href="#contact">CONTACT</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="resume.pdf">Resume</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section class="hero">
-  <div class="hero-grid">
-    <div class="hero-callout">DWG NO. TT-2026-01</div>
-    <h1>TUCKER<br>TRIVETTE</h1>
-    <p class="hero-sub">Aerospace Engineering — NC State '28 · Production Quality Engineering, Astranis</p>
-    <p class="hero-desc">I build and verify hardware — from load-cell CG rigs to avionics enclosures — and I'm spending this internship learning how quality process becomes a lever for manufacturing rate, not just a gate at the end of the line.</p>
-    <div class="hero-tags">
-      <span>GD&T</span><span>FAI / NCR</span><span>AS9100</span><span>Creo / SolidWorks</span><span>MATLAB · Python</span>
-    </div>
+  <p class="eyebrow">Aerospace Engineering Student · NC State University</p>
+  <h1>Tucker Trivette</h1>
+  <p class="hook">Aerospace engineering student interested in the design, integration, and testing of hardware. I like getting my hands on real hardware — from concept, through CAD, into the lab, and onto the test stand — and I'm most interested in how a design survives the transition into a manufactured, flight-ready part.</p>
+
+  <div class="quick-links">
+    <a href="#nasa" class="pill">NASA MSFC — Flat Floor Robotics</a>
+    <a href="#astranis" class="pill">Astranis — Quality Engineering</a>
+    <a href="#fsae" class="pill">Pack Motorsports — Formula SAE</a>
+    <a href="#windtunnel" class="pill">Aerodynamic Wind Tunnel</a>
   </div>
-  <div class="hero-plate">
-    <div class="plate-row"><span>MATERIAL</span><span>4.0 GPA — NC STATE AE</span></div>
-    <div class="plate-row"><span>FINISH</span><span>NASA MARSHALL → ASTRANIS</span></div>
-    <div class="plate-row"><span>LOCATION</span><span>HUNTSVILLE, AL / SF, CA</span></div>
+
+  <div class="hero-actions">
+    <a href="resume.pdf" class="btn-primary">View Résumé</a>
+    <a href="mailto:tucktriv@gmail.com" class="btn-secondary">tucktriv@gmail.com</a>
+    <a href="https://www.linkedin.com/in/tucker-trivette-k-2so" class="btn-secondary">LinkedIn</a>
   </div>
 </section>
 
-<section id="work" class="sheets">
-  <div class="section-label"><span>SECTION 02</span><h2>SELECTED WORK</h2></div>
-
-  <article class="sheet">
-    <div class="sheet-head">
-      <span class="sheet-no">SHEET 1 OF 4</span>
-      <span class="sheet-tol">TOL: ±0.005 IN</span>
-    </div>
-    <h3>Three-Load-Cell CG Measurement System</h3>
-    <p class="sheet-org">NASA Marshall Space Flight Center — Hardware Instrumentation</p>
-    <p>Designed and coded a center-of-gravity measurement rig using three Loadstar Sensors load cells polled over serial (COM) ports. Wrote the MATLAB acquisition and CG-solving pipeline from raw load readings to real-time position output, and handled the hardware-side instrumentation and fixturing.</p>
-    <div class="sheet-tools">MATLAB · Loadstar Sensors · Serial/COM Instrumentation · CAD Fixturing</div>
-  </article>
-
-  <article class="sheet">
-    <div class="sheet-head">
-      <span class="sheet-no">SHEET 2 OF 4</span>
-      <span class="sheet-tol">TOL: ±0.010 IN</span>
-    </div>
-    <h3>cRIO Avionics Enclosure</h3>
-    <p class="sheet-org">Independent Hardware Build — Creo Parametric</p>
-    <p>Full CAD build of an avionics enclosure housing an NI cRIO-9049, PS-16 power supply, and a Mean Well SD-1000L-24 DC-DC converter — DIN rail mounting, fastener selection (M4, 1/4-28 UNF), clearance checks, and exploded-view documentation for assembly.</p>
-    <div class="sheet-tools">Creo Parametric · Smart Fasteners · STEP/IGES Import · DIN Rail Layout</div>
-  </article>
-
-  <article class="sheet">
-    <div class="sheet-head">
-      <span class="sheet-no">SHEET 3 OF 4</span>
-      <span class="sheet-tol">TOL: ±0.020 IN</span>
-    </div>
-    <h3>Formula SAE Wind Tunnel Build</h3>
-    <p class="sheet-org">NC State Formula SAE</p>
-    <p>Built test infrastructure for aero validation on the team's SAE car, taking a design from concept through a working test article used to inform real setup decisions.</p>
-    <div class="sheet-tools">Aero Testing · Fabrication · Design Validation</div>
-  </article>
-
-  <article class="sheet">
-    <div class="sheet-head">
-      <span class="sheet-no">SHEET 4 OF 4</span>
-      <span class="sheet-tol">IN WORK — AUG 2026</span>
-    </div>
-    <h3>Production Quality Engineering</h3>
-    <p class="sheet-org">Astranis — GEO Small Satellites, San Francisco</p>
-    <p>Starting August 2026. Focused on where quality process can move the manufacturing rate needle on spacecraft production, not just catch defects after the fact. Details to follow as the internship progresses.</p>
-    <div class="sheet-tools">NCR/Disposition · FAI · Manufacturing Data (SQL/Python)</div>
-  </article>
+<section id="skills" class="skills">
+  <p class="section-eyebrow">Primary Skills</p>
+  <div class="skill-row">
+    <div class="skill-cell"><span class="skill-label">CAD</span><span class="skill-value">SolidWorks</span></div>
+    <div class="skill-cell"><span class="skill-label">CAD</span><span class="skill-value">Creo Parametric</span></div>
+    <div class="skill-cell"><span class="skill-label">Analysis</span><span class="skill-value">MATLAB</span></div>
+    <div class="skill-cell"><span class="skill-label">Programming</span><span class="skill-value">Python</span></div>
+    <div class="skill-cell"><span class="skill-label">Data</span><span class="skill-value">SQL</span></div>
+    <div class="skill-cell"><span class="skill-label">Standards</span><span class="skill-value">GD&amp;T</span></div>
+    <div class="skill-cell"><span class="skill-label">Hardware</span><span class="skill-value">Arduino</span></div>
+    <div class="skill-cell"><span class="skill-label">Interop</span><span class="skill-value">STEP / IGES</span></div>
+  </div>
 </section>
 
-<section id="about" class="about">
-  <div class="section-label"><span>SECTION 03</span><h2>ABOUT</h2></div>
-  <p>Aerospace engineering student at NC State, graduating 2028, with hardware experience spanning CAD (Creo and SolidWorks), instrumentation, and manufacturing quality. I care about the materials and process side of aerospace — where a part actually gets made, not just how it's designed. Outside of it: hammock camping, section hiking, and collecting geologically distinct rock specimens.</p>
+<section id="experience" class="experience-intro">
+  <p class="section-eyebrow">Experience</p>
+  <h2>Where I've worked on hardware</h2>
 </section>
 
-<footer id="contact" class="titleblock">
-  <div class="tb-row tb-top">
-    <div class="tb-cell tb-wide">
-      <span class="tb-label">PROJECT</span>
-      <span class="tb-value">TUCKER TRIVETTE — PORTFOLIO</span>
+<article id="nasa" class="exp">
+  <div class="exp-head">
+    <div>
+      <p class="exp-org">NASA Marshall Space Flight Center</p>
+      <h3>Flat Floor Robotics Design and Test Engineering Intern</h3>
     </div>
-    <div class="tb-cell">
-      <span class="tb-label">REV</span>
-      <span class="tb-value">A</span>
+    <span class="exp-dates">May 2026 — August 2026</span>
+  </div>
+
+  <div class="exp-photos">
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+  </div>
+
+  <p class="exp-desc placeholder-text">Add a short summary of your role and impact on the Flat Floor Robotics team here — scope of the work, the hardware involved, and what you were responsible for.</p>
+
+  <div class="exp-projects">
+    <p class="exp-projects-label">Projects</p>
+    <ul>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+    </ul>
+  </div>
+</article>
+
+<article id="astranis" class="exp exp-alt">
+  <div class="exp-head">
+    <div>
+      <p class="exp-org">Astranis</p>
+      <h3>Production Quality Engineering Intern</h3>
+    </div>
+    <span class="exp-dates">August 2026 — Present</span>
+  </div>
+
+  <div class="exp-photos">
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+  </div>
+
+  <p class="exp-desc placeholder-text">Add a short summary of your role at Astranis here — what you're working on within production quality, and how it ties into spacecraft manufacturing.</p>
+
+  <div class="exp-projects">
+    <p class="exp-projects-label">Projects</p>
+    <ul>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+    </ul>
+  </div>
+</article>
+
+<article id="fsae" class="exp">
+  <div class="exp-head">
+    <div>
+      <p class="exp-org">NC State Pack Motorsports</p>
+      <h3>Formula SAE</h3>
+    </div>
+    <span class="exp-dates">August 2025 — Present</span>
+  </div>
+
+  <div class="exp-photos">
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+  </div>
+
+  <p class="exp-desc placeholder-text">Add a short summary of your role on Pack Motorsports here — what subsystem you own and what you're building toward for competition.</p>
+
+  <div class="exp-projects">
+    <p class="exp-projects-label">Projects</p>
+    <ul>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+    </ul>
+  </div>
+</article>
+
+<article id="windtunnel" class="exp exp-alt">
+  <div class="exp-head">
+    <div>
+      <p class="exp-org">NC State</p>
+      <h3>Aerodynamic Wind Tunnel</h3>
+    </div>
+    <span class="exp-dates">August 2025 — May 2026</span>
+  </div>
+
+  <div class="exp-photos">
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+    <div class="photo-placeholder"><span>+ Add photo</span></div>
+  </div>
+
+  <p class="exp-desc placeholder-text">Add a short summary of the wind tunnel work here — what was built or tested, and what it validated.</p>
+
+  <div class="exp-projects">
+    <p class="exp-projects-label">Projects</p>
+    <ul>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+      <li class="placeholder-text">Project name — one-line description of the work and outcome.</li>
+    </ul>
+  </div>
+</article>
+
+<footer id="contact" class="contact">
+  <p class="section-eyebrow">Contact</p>
+  <div class="contact-grid">
+    <div class="contact-cell">
+      <span class="skill-label">Email</span>
+      <a href="mailto:tucktriv@gmail.com">tucktriv@gmail.com</a>
+    </div>
+    <div class="contact-cell">
+      <span class="skill-label">Phone</span>
+      <a href="tel:+18046907316">804-690-7316</a>
+    </div>
+    <div class="contact-cell">
+      <span class="skill-label">LinkedIn</span>
+      <a href="https://www.linkedin.com/in/tucker-trivette-k-2so">/in/tucker-trivette-k-2so</a>
+    </div>
+    <div class="contact-cell">
+      <span class="skill-label">Résumé</span>
+      <a href="resume.pdf">Download PDF</a>
     </div>
   </div>
-  <div class="tb-row">
-    <div class="tb-cell">
-      <span class="tb-label">DRAWN BY</span>
-      <span class="tb-value">T. TRIVETTE</span>
-    </div>
-    <div class="tb-cell">
-      <span class="tb-label">EMAIL</span>
-      <span class="tb-value"><a href="mailto:you@example.com">you@example.com</a></span>
-    </div>
-    <div class="tb-cell">
-      <span class="tb-label">LINKEDIN</span>
-      <span class="tb-value"><a href="#">/in/tucker-trivette</a></span>
-    </div>
-  </div>
-  <div class="tb-row">
-    <div class="tb-cell">
-      <span class="tb-label">SCALE</span>
-      <span class="tb-value">1:1</span>
-    </div>
-    <div class="tb-cell">
-      <span class="tb-label">DATE</span>
-      <span class="tb-value">2026</span>
-    </div>
-    <div class="tb-cell">
-      <span class="tb-label">SHEET</span>
-      <span class="tb-value">1 OF 1</span>
-    </div>
-  </div>
+  <p class="footer-note">Tucker Trivette · Aerospace Engineering, NC State University · 2028</p>
 </footer>
 
 </body>
