@@ -16,13 +16,13 @@
   <nav>
     <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
-    <a href="resume.pdf">Resume</a>
+    <a href="Tucker_Trivette_2026_2.pdf">Resume</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section class="hero">
-<img src="images/Headshot.png" alt="Tucker Trivette Headshot" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px; display: block; border: 2px solid #E1D9C8; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+  <img src="images/Headshot.png" alt="Tucker Trivette Headshot" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px; display: block; border: 2px solid #E1D9C8; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
   <p class="eyebrow">Aerospace Engineering Student · NC State University</p>
   <h1>Tucker Trivette</h1>
   <p class="hook">Aerospace engineering student focused on spacecraft and robotic hardware design and testing. This summer, I designed flight hardware and supported TVAC robotic arm welding at NASA Marshall; this fall, I'm interning at Astranis as a quality engineering intern, working on the production side of satellite development. I am working with a partner to design and analyze the side diffuser for Pack Motorsports' Formula SAE 2027 EV car. Below are a few of my projects; feel free to check them out! I am committed to building hardware that advances space technology and exploration!</p>
@@ -35,7 +35,7 @@
   </div>
 
   <div class="hero-actions">
-    <a href="resume.pdf" class="btn-primary">View Résumé</a>
+    <a href="Tucker_Trivette_2026_2.pdf" class="btn-primary">View Résumé</a>
     <a href="mailto:tucktriv@gmail.com" class="btn-secondary">tucktriv@gmail.com</a>
     <a href="https://www.linkedin.com/in/tucker-trivette-k-2so" class="btn-secondary">LinkedIn</a>
   </div>
@@ -68,9 +68,18 @@
   </div>
 
   <div class="exp-photos">
-    <div class="photo-frame"><img src="images/nasa-avionics-box.png" alt="Flight-hardware avionics box CAD assembly"></div>
-    <div class="photo-frame"><img src="images/nasa-tvac-welding-support.png" alt="TVAC chamber robotic arm welding test support"></div>
-    <div class="photo-frame"><img src="images/nasa-collision-model-cad.png" alt="Collision model CAD adjustment for MoveIt Pro robotic arm integration"></div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/nasa-avionics-box.png" alt="Flight-hardware avionics box CAD assembly"></div>
+      <p class="photo-caption">Flight Hardware Avionics Box</p>
+    </div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/nasa-tvac-welding-support.png" alt="TVAC chamber robotic arm welding test support"></div>
+      <p class="photo-caption">TVAC Chamber Hardware Implementation</p>
+    </div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/nasa-collision-model-cad.png" alt="Collision model CAD adjustment for MoveIt Pro robotic arm integration"></div>
+      <p class="photo-caption">Creo Parametric Collision Model for MoveIt Pro</p>
+    </div>
   </div>
 
   <p class="exp-desc">Designed and integrated a flight-hardware avionics box for microgravity laser welding research, and supported TVAC chamber robotic arm welding testing on NASA's flat floor robotics team.</p>
@@ -115,8 +124,14 @@
   </div>
 
   <div class="exp-photos exp-photos-2">
-    <div class="photo-frame"><img src="images/fsae-diffuser-cad.png" alt="Side diffuser SolidWorks design, current iteration"></div>
-    <div class="photo-frame"><img src="images/fsae-ic-car-testing.png" alt="2026 IC car wind tunnel testing"></div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/fsae-diffuser-cad.png" alt="Side diffuser SolidWorks design, current iteration"></div>
+      <p class="photo-caption">2027 EV Car Side Diffuser; First Iteration</p>
+    </div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/fsae-ic-car-testing.png" alt="2026 IC car wind tunnel testing"></div>
+      <p class="photo-caption">2026 IC Car Wind Tunnel Prep</p>
+    </div>
   </div>
 
   <p class="exp-desc">Working with a partner to design and test aerodynamic side-diffuser components for the 2027 EV car. Components are modeled in SolidWorks and tested in ANSYS Fluent. The manufacturing process includes wet layups, bonding, sanding, clearcoat, and waterjet techniques.</p>
@@ -133,16 +148,25 @@
   </div>
 
   <div class="exp-photos">
-    <div class="photo-frame"><img src="images/windtunnel-front-wing-1.png" alt="Custom wind tunnel testing a scaled-down FSAE front wing"></div>
-    <div class="photo-frame"><img src="images/windtunnel-front-wing-2.png" alt="Custom wind tunnel dashboard readouts during front wing testing"></div>
-    <div class="photo-frame"><img src="images/Wind_Tunnel_Drawings.png" alt="Wind Tunnel Technical Drawings"></div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/windtunnel-front-wing-1.png" alt="Custom wind tunnel testing a scaled-down FSAE front wing"></div>
+      <p class="photo-caption">FSAE Scaled Front Wing Validation Test</p>
+    </div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/windtunnel-front-wing-2.png" alt="Custom wind tunnel dashboard readouts during front wing testing"></div>
+      <p class="photo-caption">FSAE Scaled Front Wing Validation Test</p>
+    </div>
+    <div class="photo-wrapper">
+      <div class="photo-frame"><img src="images/Wind_Tunnel_Drawings.png" alt="Wind Tunnel Technical Drawings"></div>
+      <p class="photo-caption">Model Drawing Examples</p>
+    </div>
   </div>
 
   <p class="exp-desc">This project aims to replicate and measure the coefficients of lift and drag for known wings while enabling accurate real-time testing of new wing models. The setup features a custom-built wind tunnel constructed from aluminum, wood, and glass, with 3D-printed PLA components for structural connections, airflow management, and sensor integration.</p>
   
   <div class="exp-projects">
     <ul>
-      <li><strong>Validated 2026 FSAE front wing concept design with scaled-down 3d printed model- achieved within 1.5% drag error when compared to ANSYS Fluent simulation results.</strong></li>
+      <li><strong>Validated 2026 front wing concept design with scaled-down 3d printed model- achieved within 1.5% drag error when compared to ANSYS Fluent simulation results.</strong></li>
       <li>Integrated a Raspberry Pi to control the system, operating load cells (for lift and drag), a Pitot tube (for windspeed), and a servo for adjustable angle of attack. Data is displayed via an LCD, with electronics organized on a custom KiCad PCB.</li>
     </ul>
   </div>
@@ -165,7 +189,7 @@
     </div>
     <div class="contact-cell">
       <span class="skill-label">Résumé</span>
-      <a href="resume.pdf">Download PDF</a>
+      <a href="Tucker_Trivette_2026_2.pdf">Download PDF</a>
     </div>
   </div>
   <p class="footer-note">Tucker Trivette · Aerospace Engineering, NC State University · 2028</p>
