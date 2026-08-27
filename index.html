@@ -22,13 +22,14 @@
 </header>
 
 <section class="hero">
+  <img src="images/Headshot.png" alt="Tucker Trivette Headshot" class="hero-headshot">
   <p class="eyebrow">Aerospace Engineering Student · NC State University</p>
   <h1>Tucker Trivette</h1>
   <p class="hook">Aerospace engineering student focused on spacecraft and robotic hardware design and testing. This summer, I designed flight hardware and supported TVAC robotic arm welding at NASA Marshall; this fall, I'm interning at Astranis as a quality engineering intern, working on the production side of satellite development. I am working with a partner to design and analyze the side diffuser for Pack Motorsports' Formula SAE 2027 EV car. Below are a few of my projects; feel free to check them out! I am committed to building hardware that advances space technology and exploration!</p>
 
   <div class="quick-links">
     <a href="#nasa" class="pill">NASA MSFC — Flat Floor Robotics</a>
-    <a href="#astranis" class="pill">Astranis — Quality Engineering</a>
+    <a href="#astranis" class="pill">Astranis — Production Quality Engineering</a>
     <a href="#fsae" class="pill">Pack Motorsports — Formula SAE</a>
     <a href="#windtunnel" class="pill">Aerodynamic Wind Tunnel</a>
   </div>
@@ -43,14 +44,12 @@
 <section id="skills" class="skills">
   <p class="section-eyebrow">Primary Skills</p>
   <div class="skill-row">
-    <div class="skill-cell"><span class="skill-label">CAD</span><span class="skill-value">SolidWorks</span></div>
-    <div class="skill-cell"><span class="skill-label">CAD</span><span class="skill-value">Creo Parametric</span></div>
+    <div class="skill-cell"><span class="skill-label">CAD</span><span class="skill-value">SolidWorks / Creo</span></div>
+    <div class="skill-cell"><span class="skill-label">Simulation</span><span class="skill-value">FEA / ANSYS Fluent / Discovery</span></div>
     <div class="skill-cell"><span class="skill-label">Analysis</span><span class="skill-value">MATLAB</span></div>
-    <div class="skill-cell"><span class="skill-label">Programming</span><span class="skill-value">Python</span></div>
-    <div class="skill-cell"><span class="skill-label">Data</span><span class="skill-value">SQL</span></div>
-    <div class="skill-cell"><span class="skill-label">Standards</span><span class="skill-value">GD&amp;T</span></div>
-    <div class="skill-cell"><span class="skill-label">Hardware</span><span class="skill-value">Arduino</span></div>
-    <div class="skill-cell"><span class="skill-label">Interop</span><span class="skill-value">STEP / IGES</span></div>
+    <div class="skill-cell"><span class="skill-label">Programming</span><span class="skill-value">Python / SQL</span></div>
+    <div class="skill-cell"><span class="skill-label">Hardware</span><span class="skill-value">3D Printing / Milling</span></div>
+    <div class="skill-cell"><span class="skill-label">Electronics</span><span class="skill-value">KiCad / Arduino</span></div>
   </div>
 </section>
 
@@ -96,7 +95,13 @@
     <span class="exp-dates">August 2026 — Present</span>
   </div>
 
-  <p class="exp-desc">Quality engineering intern working on the production side of satellite development, supporting the manufacturing and quality processes behind Astranis's spacecraft.</p>
+  <p class="exp-desc">Production Quality engineering intern working on the production side of satellite development, supporting hardware quality assurance processes and communicating with design and manufacturing teams to pinpoint issues and propose efficient solutions.</p>
+  <div class="exp-projects">
+    <ul>
+      <li>Collaborating with production and quality teams to identify defect trends and process improvements.</li>
+      <li>Applying Python and SQL to support quality data analysis.</li>
+    </ul>
+  </div>
 </article>
 
 <article id="fsae" class="exp">
@@ -127,12 +132,20 @@
     <span class="exp-dates">August 2025 — May 2026</span>
   </div>
 
-  <div class="exp-photos exp-photos-2">
+  <div class="exp-photos">
     <div class="photo-frame"><img src="images/windtunnel-front-wing-1.png" alt="Custom wind tunnel testing a scaled-down FSAE front wing"></div>
     <div class="photo-frame"><img src="images/windtunnel-front-wing-2.png" alt="Custom wind tunnel dashboard readouts during front wing testing"></div>
+    <div class="photo-frame"><img src="images/Wind_Tunnel_Drawings.png" alt="Wind Tunnel Technical Drawings"></div>
   </div>
 
-  <p class="exp-desc">This project aims to replicate and measure the coefficients of lift and drag for known wings while enabling accurate real-time testing of new wing models. The setup features a custom-built wind tunnel constructed from aluminum, wood, and glass, with 3D-printed PLA components for structural connections, airflow management, and sensor integration. A Raspberry Pi controls the system, operating sensors such as load cells (for lift and drag), a Pitot tube (for windspeed), and a servo for adjustable angle of attack. Data is going to be displayed via an LCD and input system, with electronics organized on a custom PCB designed in KiCAD.</p>
+  <p class="exp-desc">This project aims to replicate and measure the coefficients of lift and drag for known wings while enabling accurate real-time testing of new wing models. The setup features a custom-built wind tunnel constructed from aluminum, wood, and glass, with 3D-printed PLA components for structural connections, airflow management, and sensor integration.</p>
+  
+  <div class="exp-projects">
+    <ul>
+      <li><strong>Validated 2026 front wing concept design with scaled-down 3d printed model- achieved within 1.5% drag error when compared to ANSYS Fluent simulation results.</strong></li>
+      <li>Integrated a Raspberry Pi to control the system, operating load cells (for lift and drag), a Pitot tube (for windspeed), and a servo for adjustable angle of attack. Data is displayed via an LCD, with electronics organized on a custom KiCad PCB.</li>
+    </ul>
+  </div>
 </article>
 
 <footer id="contact" class="contact">
